@@ -1,0 +1,440 @@
+@media (max-width: 375px){
+
+.header__div_nav{
+    width: 375px;
+}
+
+.header__div_nav img{
+    width: 105.64px;
+    height: 40px;
+    margin: 10px 20px 10px 20px;
+}
+
+.header__div__principal__tamanho{
+   height: 662px;
+}
+
+.header__div__principal__formulario{
+    margin:  0;
+    height: 600px;
+}
+
+.header__text{
+    margin: 25px;
+}
+
+
+/* formulario */
+.header__div__formulario{
+    width: 325px;
+    height: 419px;
+    margin: 0px 25px 50px 25px;
+}
+
+.form__div__tamanho{
+    width: 275px;
+    height: 50px;
+    margin: 25px 25px 0 25px;
+}
+
+.select__{
+    margin: 0 25px 0 10px;
+}
+
+.formulario__span{
+    margin-left: 5px;
+}
+
+.form__div__tamanho__input{
+    width: 275px;
+    height: 50px;
+    margin: 20px 20px 0 20px;
+}
+
+.form__div__date{
+    width: 275px;
+    height: 50px;
+    margin: 20px 20px 0 20px;
+}
+
+.btn__form__pesquisar{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn__form{
+    order: 1;
+}
+
+.btn__form__pesquisar{
+    margin: 0;
+}
+
+#personagem{
+    display: none;
+}
+
+
+.header__secundario{
+    height: 100px;
+    
+}
+.mobile__sumir {
+    display: none;
+}
+
+.mobile__img{
+    display: block;
+    height: 77.69px;
+    width: 170px;
+}
+
+.mobitle__passar__img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mobitle__passar__img img{
+    margin: 20px 5px 0 5px;
+}
+
+/* primeira section */
+
+.main__primeira__h1{
+    font-size: 28px;
+    margin-top: 50px;
+}
+
+.main__carrossel{
+    margin-top: 30px;
+    width: 375px;
+}
+
+#img__mobile_1{
+    display: none;
+}
+
+#img__mobile{
+display: none;
+
+}
+
+.elipse__carrossel{
+    margin: 20px 0 50px 0;
+}
+
+/* segunda main */
+.main__segunda__h1{
+    font-size: 28px;
+    margin: 0 0px 30px 0px;
+}
+
+.main__segunda__img__lugar{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main__segunda__img{
+    width: 325px;
+    height: 379px;
+    padding: 5px;
+    margin: 0 25px 0 25px;
+}
+
+.main__segunda__img2_lugar_{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 325px;
+    height: 379px;
+    padding: 5px;
+    margin-top: 40px; 
+}
+
+.main__segunda__img2{
+    padding: 5px;
+    text-align: center;
+    width: 325px;
+    height: 379px;
+    padding: 5px;
+    margin: 0 25px 0 25px;
+}
+.main__segunda__btn{
+    
+}
+
+/* terceira main */
+.main__teceira__texto{
+    width: 375px;
+    
+}
+
+.main__terceira__section h1{
+    font-size: 28px;
+    text-align: center;
+}
+
+.main__teceira__texto p{
+    font-size: 16px;
+}
+
+.main__terceita__btn{
+    width: 326px;
+    font-size: 16px;
+}
+
+.main__quarta__section h1{
+    font-size: 28px;
+}
+
+
+/* quarta section */
+
+.main__quarta__tamanho{
+    flex-direction: column;
+    margin-top: 30px;
+}
+
+.main__quarta__valores{
+    width: 325px;
+    margin-bottom: 40px;
+}
+
+/* quinta section */
+
+.main__quinta__final{
+  width: 375;
+    height:736px ;    
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;  
+
+}
+.main__quinta__tamanho{
+    justify-content: center;
+    align-items: center;   
+    flex-direction: column;
+    width: 375px;
+}
+
+.email{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.input__email{
+    width: 300px;
+
+
+}
+
+.input__submit__email{
+    display: none;
+}
+
+.input__submit__email_{
+  display: block;  
+  display: flex;
+  justify-content: center;
+  width: 325px;
+}
+
+.main__quinta__img{
+    order: 3;
+    margin: 0;
+}
+
+.main__quinta__email h4{
+    text-align: center;
+    font-size: 28px;
+    width: 13em;
+    word-wrap: break-word;
+
+}
+
+.main__quinta__check{
+    width: 20em;
+    margin-top: 20px;
+    word-wrap: break-word;
+
+}
+
+.main__quinta__email{
+    order: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+
+.footer__principal{
+    height: 941px;
+    width: 375px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.footer__tamanho{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.footer__img{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer__img img{
+    width: 160.41px;
+    height: 60px;
+
+}
+
+.lista__footer{
+    margin: 0 5px 0 5px ;
+    text-align: start;
+}
+
+
+.lista__footer2{
+    margin: 0 5px 0 5px ;
+}
+
+
+.footer__redes__sociais{
+    height: 10%;
+}
+
+.footer__redes__insta__whats{
+    width: 375px;
+}
+
+.seta{
+    justify-content: end;
+   width: 100%;
+   align-items: end;
+   margin: 0;
+}   
+
+.seta img{
+    padding: 18px;
+}
+
+.final{
+    height: 180px;
+}
+
+.final__tamanho{
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center; 
+}
+
+.final__copy{
+    margin: 30px 0 30px 0;
+}
+
+
+
+#btn__mobile{
+    display: flex;
+    padding: .3rem;
+    border: none;
+    background: none;
+    cursor: pointer;
+    gap: 0.5rem;
+}
+
+#hamburger{
+    border-top: 3px solid;
+    width: 20px;
+    display: block;
+    color: #fff;
+}
+
+#hamburger::after, #hamburger::before{
+    content: '';
+    display: block;
+    width: 20px;
+    height: 3px;
+    background: currentColor;
+    margin-top:5px;
+    transition: .3s;
+    position: relative;
+}
+
+.ul__nav{
+    display: block;
+    position: absolute;
+    width: 100%;
+    top: 70px;
+    right: 0px;
+    background-image: linear-gradient(to right, #8367AD, #605CA8);
+    z-index: 1000;
+    height: 0;
+    transition: .5s;
+    visibility: hidden;
+    overflow-y: hidden;
+}
+
+#navBar.active .ul__nav{
+    height: calc(100vh - 70px);
+    visibility: visible;
+    overflow-y: auto;
+}
+
+#navBar.active #hamburger{
+    border-top-color: transparent;
+
+}
+
+#navBar.active #hamburger::before{
+    transform: rotate(135deg);
+
+}
+
+#navBar.active #hamburger::after{
+    transform: rotate(-135deg);
+    top: -8px;
+
+}
+
+.ul__nav li{
+    padding: 1rem 0;
+    margin:  1rem;
+    font-size: 20px;
+    border-bottom: 1px solid black;
+
+}
+
+.user{
+    margin: 5px 10px 0 10px;
+    
+}
+
+.user img{
+    height: 18.09px;
+    width: 18.09px;
+}
+
+
+}
+
+
+
+
+
+
+

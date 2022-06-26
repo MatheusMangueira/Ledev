@@ -1,0 +1,768 @@
+@font-face {
+    font-family: 'Aeonik';
+    src: url(./fonts/AeonikTRIAL-Regular.otf)
+}
+
+@font-face {
+    font-family: 'Aeonik-regular';
+    src: url(./fonts/AeonikTRIAL-Light.otf);
+}
+
+@font-face {
+    font-family: 'Aeonik-Bold';
+    src: url(./fonts/AeonikTRIAL-Bold.otf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* menu principal do header*/
+
+.header__class {
+    background-image: linear-gradient(to right, #8367AD, #605CA8);
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header__div_nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1216px;
+    height: 100%;
+}
+
+#btn__mobile{
+    display: none;
+}
+
+.ul__nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ul__nav a{
+    transition: 0.5s;
+}
+
+.ul__nav a:hover{
+    color: #EAC165;
+}
+
+li {
+    list-style-type: none;
+}
+
+.ul__nav a {
+    margin: 0px 19px 0px 19px;
+    text-decoration: none;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #fff;
+    font-family: 'Aeonik-regular', 'Times', 'serif';
+}
+
+/* formulario do header */
+
+.header__div__principal {
+    background-image: linear-gradient(to right, #FED984, #EAC165);
+    width: 100%;
+    height: 577px;
+    display: flex;
+    justify-content: center;
+}
+
+.header__div__principal__tamanho {
+    display: flex;
+    justify-content: space-between;
+    width: 1216px;
+    height: 100%;
+}
+
+#personagem {
+    margin: 40px 140px 0px 0px;
+}
+
+.header__div__formulario {
+    height: 415px;
+    width: 600px;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    box-shadow: 0px 3px 20px #00000029;
+    display: flex;
+}
+
+.header__div__principal__formulario {
+    display: flex;
+    flex-direction: column;
+    margin-top: 37px;
+}
+
+.header__text {
+    font-size: 28px;
+    font-family: 'Aeonik-Bold';
+    color: #605CA8;
+    margin-bottom: 20px;
+}
+
+
+.form__div__tamanho {
+    height: 50px;
+    width: 519px;
+    background-color: #F5F5F5;
+    margin: 40px 40px 0 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+}
+
+.select__ {
+    height: 50px;
+    width: 100%;
+    background: none;
+    border: none;
+    color: #5B5B5B;
+    font-size: 16px;
+    margin: 0 8px 0 25px;
+    font-size: 16px;
+    cursor: pointer;
+
+}
+
+.imagem__fomulario__ {
+    margin: 0 10px 0 20px;
+}
+
+.formulario__span {
+    color: #8166AC;
+    font-family: 'Aeonik-Bold';
+    margin-left: 10px;
+
+}
+
+.form__div__tamanho__input {
+    height: 50px;
+    width: 519px;
+    background-color: #F5F5F5;
+    margin: 20px 40px 0 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.formulario__div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.input__formulario[type="number"] {
+    -webkit-appearance: textfield;
+    -moz-appearance: textfield;
+    appearance: textfield;
+}
+
+.input__formulario[type=number]::-webkit-inner-spin-button,
+.input__formulario[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+}
+
+.number-input {
+    border: none;
+    display: inline-flex;
+}
+
+.number-input,
+.number-input * {
+    box-sizing: border-box;
+}
+
+.number-input button {
+    background-color: transparent;
+    border: none;
+    width: 2rem;
+    height: 3rem;
+    cursor: pointer;
+    position: relative;
+}
+
+.number-input button:before,
+.number-input button:after {
+    display: inline-block;
+    position: absolute;
+    content: '';
+    width: 7px;
+    height: 2px;
+    background-color: #8166AC;
+    transform: translate(-50%, -50%);
+}
+
+.number-input button.plus:after {
+    transform: translate(-50%, -50%) rotate(90deg);
+}
+
+.number-input input[type=number] {
+    background: transparent;
+    max-width: 20px;
+    border: none;
+    font-size: 18px;
+    font-family: 'Aeonik';
+    text-align: center;
+    color: #5B5B5B;
+}
+
+.form__div__date {
+    height: 50px;
+    width: 519px;
+    background-color: #F5F5F5;
+    margin: 20px 40px 0 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+}
+
+.input__formulario_data {
+    height: 50px;
+    width: 100%;
+    background: none;
+    border: none;
+    color: #5B5B5B;
+    font-size: 16px;
+    margin: 0 8px 0 25px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.btn__form__pesquisar {
+    margin: 20px 40px 0 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btn__form {
+    width: 251px;
+    height: 50px;
+    border: none;
+    background-color: #8166AC;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 16px;
+    margin-top: 5px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.btn__form:hover {
+    background-color: #7945cc;
+    ;
+}
+
+.form__label {
+    font-size: 16px;
+    color: #8166AC;
+    font-family: 'Aeonik-regular';
+    text-align: center;
+}
+
+.form__check__viagens {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.input__form__check {
+    height: 20px;
+    width: 20px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.header__secundario {
+    width: 100%;
+    height: 150px;
+    background-color: #605CA8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header__secundario img {
+    margin: 0 30px 0 30px;
+}
+
+.mobitle__passar__img{
+    display: none;
+}
+
+/* main primeira section */
+
+.section__div__one {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.main__primeira__h1 {
+    text-align: center;
+    margin-top: 100px;
+    color: #605CA8;
+    font-size: 40px;
+    font-family: 'Aeonik-Bold';
+}
+
+.main__carrossel {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1216px;
+    margin-top: 96px;
+}
+.seta__carrossel{
+    cursor: pointer;
+}
+.main__img__carrossel {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main__img__carrossel h2 {
+    margin: 15px;
+    font-size: 21px;
+    color: #605CA8;
+    font-family: 'Aeonik-Bold';
+}
+
+.main__img__carrossel p {
+    color: #9D9D9D;
+    text-align: center;
+    font-size: 16px;
+}
+
+.elipse__carrossel {
+    cursor: pointer;
+    margin: 62px 0 100px 0;
+}
+
+.elipse__carrossel img {
+    margin: 0 3px 0 3px;
+}
+
+.main__segunda__h1 {
+    text-align: center;
+    color: #605CA8;
+    font-size: 40px;
+    font-family: 'Aeonik-Bold';
+    margin-bottom: 73px;
+}
+
+.main__segunda__img__lugar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main__segunda__img {
+    background-image: url("./img/Pngtree.png");
+    background-color: #605CA8;
+    height: 430px;
+    width: 568px;
+    margin-right: 71px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+
+.main__segunda__img h3 {
+    font-size: 21px;
+    color: #fff;
+    font-family: 'Aeonik-regular';
+}
+
+.main__segunda__img h1 {
+    font-size: 60px;
+    color: #fff;
+    font-family: 'Aeonik-Bolde';
+}
+
+.main__segunda__img p {
+    font-size: 16px;
+    text-align: center;
+    color: #fff;
+    font-family: 'Aeonik-Bold';
+}
+
+.main__segunda__btn {
+    height: 50px;
+    width: 157.5px;
+    background-color: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    font-family: 'Aeonik-regular';
+    color: #605CA8;
+    border-radius: 5px;
+    text-align: center;
+    transition: 1s;
+}
+
+.main__segunda__btn:hover{
+    background-color: rgb(182, 180, 180);
+}
+
+.main__segunda__img2_lugar_ {
+    background-image: url("./img/statue.png");
+    background-color: #FDD782;
+    height: 430px;
+    width: 568px;
+    border-radius: 10px;
+}
+
+.main__segunda__img2 {
+    height: 430px;
+    width: 568px;
+    margin-right: 71px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+
+.main__segunda__img2 h3 {
+    font-size: 21px;
+    color: #605CA8;
+    font-family: 'Aeonik-regular';
+}
+
+.main__segunda__img2 h1 {
+    font-size: 60px;
+    color: #605CA8;
+    font-family: 'Aeonik-Bold';
+}
+
+.main__segunda__img2 p {
+    font-size: 16px;
+    color: #605CA8;
+    font-family: 'Aeonik-regular';
+    text-align: center;
+}
+
+.main__terceira__section {
+    background-color: #F5F5F5;
+    width: 100%;
+    height: 627px;
+    margin-top: 100px;
+
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main__terceira__section h1 {
+    margin: 100px 0 50px 0;
+    text-align: center;
+    font-size: 48px;
+    font-family: 'Aeonik-Bold';
+    color: #605CA8;
+}
+
+.main__teceira__texto p {
+    color: #605CA8;
+    font-size: 21px;
+    font-family: 'Aeonik-regular';
+}
+
+.main__btn__section {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.main__terceita__btn {
+    background-color: #605CA8;
+    color: #fff;
+    height: 80px;
+    width: 525px;
+    cursor: pointer;
+    border: none;
+    font-size: 21px;
+    border-radius: 5px;
+    transition: 1s;
+}
+
+.main__terceita__btn:hover {
+    background-color: #7945cc;
+}
+
+.main__quarta__section {
+    margin-top: 50px;
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Aeonik-Bold';
+    color: #605CA8;
+}
+
+.main__quarta__principal {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.main__quarta__tamanho {
+    width: 1216px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 100px 0 100px 0;
+}
+
+
+.main__quarta__valores {
+    background-color: #605CA8;
+    border-radius: 10px;
+    width: 500px;
+    height: 307px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.main__quarta__valores p {
+    color: #fff;
+    font-size: 21px;
+}
+
+.main__quarta__valores h1 {
+    font-size: 60px;
+    color: #fff;
+    font-family: 'Aeonik-Bold';
+    text-transform: uppercase;
+}
+
+.main__quinta__final {
+    background-color: #E3E3E3;
+    height: 280px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main__quinta__tamanho {
+    width: 1216px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.main__quinta__img {
+    margin-right: 225px;
+}
+
+.main__quinta__email {
+    display: flex;
+    flex-direction: column;
+}
+
+.main__quinta__email h4 {
+    font-size: 26px;
+    color: #605CA8;
+    margin-bottom: 34px;
+}
+
+.input__email {
+    height: 30px;
+    width: 470px;
+    border: 2px solid #605CA8;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.input__submit__email {
+    height: 55px;
+    background-color: #605CA8;
+    border: none;
+    width: 130px;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: 1s;
+}
+
+.input__submit__email:hover{
+    background-color: #7945cc;
+}
+
+.input__submit__email_{
+    height: 55px;
+    background-color: #605CA8;
+    border: none;
+    width: 130px;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: 1s;
+    display: none;
+}
+
+.input__submit__email_:hover{
+    background-color: #7945cc;
+}
+
+.email {
+    margin-bottom: 15px;
+}
+
+
+.check__main {
+    height: 20px;
+    width: 20px;
+    cursor: pointer;
+}
+
+.main__quinta__check label{
+    font-size: 14px;
+    text-align: center;
+    color: #5B5B5B;
+    font-family: 'Aeonik-regular';
+}
+
+strong{
+    text-decoration: underline;
+}
+
+.footer__principal{
+    width: 100%;
+    height: 530px;
+    background-color: #EEEEEE;
+    display: flex;
+    justify-content:center;
+    align-items: flex-start;
+    
+}
+
+.footer__tamanho{
+    width: 1216px;
+    height: 480px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #605CA8;
+}
+
+.footer__img{
+    height: 40%;
+}
+
+.lista__footer{
+    margin-top: 100px;
+}
+
+.lista__footer h4{
+    font-size: 19px;
+    font-family: 'Aeonik-Bold';
+    color: #605CA8;
+    text-transform: uppercase;
+}
+
+.lista__footer li{
+    font-size: 16px;
+    color: #5B5B5B;
+    font-family: 'Aeonik-regular';
+    margin: 20px 0 20px 0;
+}
+
+.lista__footer2{
+    margin-top: 100px;
+}
+
+.lista__footer2 h4{
+    font-size: 19px;
+    font-family: 'Aeonik-Bold';
+    color: #605CA8;
+    text-transform: uppercase;
+
+}
+
+.lista__footer2 li{
+    font-size: 16px;
+    color: #5B5B5B;
+    font-family: 'Aeonik-regular';
+    margin: 20px 0 20px 0;
+}
+
+
+.footer__redes__sociais{
+    display: flex;
+    justify-content: end;
+   align-items: flex-end;
+   height: 100%;
+}
+
+.footer__redes__insta__whats{
+    display: flex;
+    /* justify-content: space-around;
+    align-items: flex-start; */
+    height: 100%;
+    width: 115px;
+}
+
+.whats__insta{
+    display: flex;
+    align-items: flex-end;
+    height: 90%;
+    width: 50%;
+}
+
+.whats__insta img {
+    padding: 5px;
+}
+
+.seta{
+    display: flex;
+    align-items: flex-start;
+    height: 100%;
+    margin-top: 40px;
+    padding: 5px;
+}
+
+.final{
+    width: 100%;
+    height: 150px;
+    background-color: #EEEEEE;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.final__tamanho{
+    width: 1216px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #5B5B5B;
+}
